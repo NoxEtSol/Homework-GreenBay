@@ -1,0 +1,8 @@
+package com.greenfoxacademy.greenbay.exceptions;
+
+public class IncorrectPasswordException extends RuntimeException {
+
+  public IncorrectPasswordException(String message) {
+    super(message);
+  }
+}
